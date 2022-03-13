@@ -22,8 +22,9 @@ def letterFrequency(f, letter): #defining the function
          numberOfEs = f.read() #storing what we are looking for in the file as a variable 
  
          return numberOfEs.count(letter) 
-        #Calling the function to print out the number of lower case e's in the txt file
- 
+         
+        
 print(letterFrequency('f', 'e')) #dont need to specifically define that it's lower case here as Python is case sensitive anyway 
+#Calling the function to print out the number of lower case e's in the txt file
 
 #https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
