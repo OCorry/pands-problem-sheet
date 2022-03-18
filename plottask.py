@@ -16,7 +16,7 @@ plt.plot(xpoints, ypointsB, label = "g(x) = x2", color = "orange", ls = "--", ma
 plt.plot(xpoints, ypointsC, label = "h(x) = x3", color = "green", marker= "H")
 plt.legend()
 plt.grid()
-plt.show()
+plt.savefig("Plot Task.png")
 #references for making plot 'pretty'
 #https://www.w3schools.com/python/default.asp
 #https://www.w3schools.com/python/matplotlib_grid.asp 
