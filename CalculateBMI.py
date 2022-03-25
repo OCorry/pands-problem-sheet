@@ -9,5 +9,5 @@ height = int(input("Enter height (cm):"))
 #Dividing height by 100 to convert to meters
 BMI = round(weight / (height/100)**2 ,2) #Using the round function to round the output to 2 decimal places
 
-#calling the print() function and using format() function to format the output string 
+#calling the print() function and using format() function to format the output string. 
 print ('The BMI is (kg/m2) {}.' .format(BMI)) 
