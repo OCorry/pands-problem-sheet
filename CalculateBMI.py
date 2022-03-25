@@ -11,3 +11,4 @@ BMI = round(weight / (height/100)**2 ,2) #Using the round function to round the 
 
 #calling the print() function and using format() function to format the output string. 
 print ('The BMI is (kg/m2) {}.' .format(BMI)) 
+
