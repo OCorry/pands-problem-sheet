@@ -2,6 +2,8 @@
 # Read in the weight and height variables using the input() fumction  
 # Author: Orla Corry 
 
+
+#need the imput variables to be in integer form so putting int before input 
 weight = int(input("Enter weight (kg):"))  
 height = int(input("Enter height (cm):"))  
 
