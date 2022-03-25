@@ -11,7 +11,7 @@ Finally, I called the print() function, to complete the program. Using the forma
 
 
 
-Number of e’s:
+Number of e’s.py
 
 The purpose of the program was to count the number of e’s in the Moby Dick text. It was not specified if I needed to count upper or lower case here so I went on the assumption that it was lower case only as the e in the request was a lower case e.
 I used text from https://www.gutenberg.org/files/2701/old/moby10b.txt.
