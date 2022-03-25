@@ -3,7 +3,7 @@
 import numpy as np 
 import matplotlib.pyplot as plt
 xpoints = np.array(range(0,5)) #making this 0,5 so that the x axis contains 0 through to 4 
-ypointsA = xpoints #the function of x is y: f(x)=y     https://www.youtube.com/watch?v=uWKGVSpWcc8
+ypointsA = xpoints #the function of x is y: f(x)=y    
 ypointsB = xpoints*xpoints #g(x)=x2 ie: y=x*x
 ypointsC = xpoints**3 #h(x)=x3 ie: y= x*x*x
 
@@ -16,10 +16,9 @@ plt.plot(xpoints, ypointsB, label = "g(x) = x2", color = "orange", ls = "--", ma
 plt.plot(xpoints, ypointsC, label = "h(x) = x3", color = "green", marker= "H")
 plt.legend()
 plt.grid()
+#plt.show()
 plt.savefig("Plot Task.png")
 #references for making plot 'pretty'
-#https://www.w3schools.com/python/default.asp
-#https://www.w3schools.com/python/matplotlib_grid.asp 
-#https://www.w3schools.com/python/matplotlib_labels.asp
-#https://www.w3schools.com/python/matplotlib_line.asp
-#https://www.tutorialspoint.com/numpy/numpy_matplotlib.htm
+
+# 
+#
