@@ -11,6 +11,14 @@ Finally, I called the print() function, to complete the program. Using the forma
 
 
 
+SecondString.py
+
+The purpose of this program was to allow the user to input a sentence and use code to output a second string with every second letter in reverse order. To allow the user to input the sentence (originalSentence) in the terminal, I used the input() function, followed by ‘Please enter a sentence:”.
+The next step was to source code to obtain the output requested. To print the secondString in reverse, I got my code from https://www.w3schools.com/python/python_howto_reverse_string.asp. This started at the end of the string and worked backwards. However, as the program also needed to be able to print every second letter in reverse order, so I needed to alter this code. I found code from https://stackoverflow.com/questions/53769570/printing-even-characters-with-strings-in-python to print every second letter. I incorporated the two ideas from the two sources to make [::-2]. Meaning that starting at the very end of the string, the program would output every second letter. If I had used [43::-2], I would have gotten the same output (as there are 43 indexes in the sentence. However, because I was starting from the very end of the sentence in this case, I didn’t need to specify the index number. 
+The final step was to call the print() function to print the output of the program in the terminal; .o zletrv pu o wr cu h
+
+
+
 Number of e’s.py
 
 The purpose of the program was to count the number of e’s in the Moby Dick text. It was not specified if I needed to count upper or lower case here so I went on the assumption that it was lower case only as the e in the request was a lower case e.
@@ -23,6 +31,7 @@ After this, I stored what I was looking for in the text, (ie: the number of e’
 All of the code within the defined function was indented.
 Finally, I called the whole function to print the number of e’s in the text, ‘f’. I did this by entering .\es.py .\moby-dick.txt in the terminal inside of the PANDS-PROBLEM-SHEET directory. 
 The print call was not indented as it was not a section of the defined function.
+
 
 
 Plottask.py
