@@ -22,7 +22,6 @@ while number != 1: #while the number is not equal to 1
         list.append(int(number)) #to add the number to the list 
 
 
-
 print(list) #calling the function using print() command 
 
 
