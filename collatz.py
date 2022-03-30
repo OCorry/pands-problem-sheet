@@ -5,23 +5,25 @@
 
 #Author: Orla Corry
 
-            
-number = int(input("Please enter a positive integer:"))
+number = int(input("Please enter a positive integer:")) #initialising the variable using input statement so user can input in terminal
 
 list = [] #the program needs to output a list of the numbers that the block of code creates
 list.append(int(number)) #adding a number to the list each time a number genterated
                             #Using int() so output will be as an integer
 
+
 while number != 1: #while the number is not equal to 1
     if number % 2 == 0: #if the number divides by two with no remainder (ie: an even number)
         number = number / 2
         list.append(int(number)) #to add the number to the list 
+
     else: #if number is an odd number 
         number = (3 * number) + 1
         list.append(int(number)) #to add the number to the list 
 
-#calling the function using print() command 
-print(list)
+
+
+print(list) #calling the function using print() command 
 
 
 
