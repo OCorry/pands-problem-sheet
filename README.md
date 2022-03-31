@@ -11,11 +11,27 @@ Finally, I called the print() function, to complete the program. Using the forma
 
 
 
+
 SecondString.py
 
 The purpose of this program was to allow the user to input a sentence and use code to output a second string with every second letter in reverse order. To allow the user to input the sentence (originalSentence) in the terminal, I used the input() function, followed by ‘Please enter a sentence:”.
 The next step was to source code to obtain the output requested. To print the secondString in reverse, I got my code from https://www.w3schools.com/python/python_howto_reverse_string.asp. This started at the end of the string and worked backwards. However, as the program also needed to be able to print every second letter in reverse order, so I needed to alter this code. I found code from https://stackoverflow.com/questions/53769570/printing-even-characters-with-strings-in-python to print every second letter. I incorporated the two ideas from the two sources to make [::-2]. Meaning that starting at the very end of the string, the program would output every second letter. If I had used [43::-2], I would have gotten the same output (as there are 43 indexes in the sentence. However, because I was starting from the very end of the sentence in this case, I didn’t need to specify the index number. 
 The final step was to call the print() function to print the output of the program in the terminal; .o zletrv pu o wr cu h
+
+
+
+
+collatz.py
+
+The purpose of this task was to ask the user to input a positive integer (in this case, using the number 10) and the program was to output values given a set of instructions. At each step, taking the current value and depending on whether it was an odd or even number; either divide the number by 2 or else multiply the number by 3 and add 1, respectively. 
+Firstly, I initialised the variable ‘number’ using the input() function so that the user could input the positive integer themselves in the terminal. To ensure that the program recognised that it was an integer I was looking for, I put ‘int’ before the input() function.
+I sourced my code for this program from https://medium.com/the-art-of-python/the-collatz-sequence-in-python-eb7e1f1b4f9e .
+I used the ‘if’ and ‘else’ statements for the program. On their own however, they would not generate the output that I was looking for above. The program would have stopped running with an output of 5 as the program would have carried out the ‘if’ statement as the ‘if’ statement was true in this case (Sweigart A, 2015, P.38). Also, to note here, had the ‘if’ statement been false (ie.: an odd number), the program would have skipped the ‘if’ statement and carried out the else statement instead (Sweigart A, 2015, P.39).
+To overcome the issue above, I used a while loop so that while the value of the number was not equal to 1, the program would continue to run. The code under the while clause will run as long as the condition of the while statement is true (Sweigart, A, 2015, P. 45).
+I indented the ‘if’ and ‘else’ statements so that the block of code that I was using ran under the while loop condition I had set.
+I also initialised a variable called ‘list’ so that the program would output the list of values from the block of code. I used the append() function so that for each value the program generated, it would be added to the list https://realpython.com/python-append/. I found that in order for initial value (10) to print, I also had to put the append() function before the while loop so that 10, too would be added to the list. 
+Finally, I called the function using the print()  function to print the list. The program printed [10, 5, 16, 8, 4, 2, 1]
+
 
 
 
