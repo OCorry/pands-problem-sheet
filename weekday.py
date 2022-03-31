@@ -1,18 +1,11 @@
-#program to see what day of the week it is 
-#Author Orla Corry 
-
+#Program that outputs whether or not today is a weekday
+#Author: Orla Corry 
 
 import datetime #importing datetime funtion to python
-x = datetime.datetime.now() #x is equal to the day it is at this moment in time 
-today = x.strftime("%A")  #define today as a str (weekday, full version)
-#print(today)   #this will print out today's day - if i had put this in inverted commas it would have just printed "today"
-                #will tag this out for the purposes of printing a neater final output
+now = datetime.datetime.today().weekday() #now is equal to the day and time it is at this moment in time 
 
-if today == "Saturday": #if this statement is false, the elif statement will run 
-    print ("It is the weekend, yay!")
+if now < 5: #if the number of the day of the week is less than 5 it is a weekday 
+    print("Yes, unfortunately today is a weekday.")
 
-elif today == "Sunday": #if this statement is false, the else statement will run 
+else: #if the number of the day of the week is greater than five (Saturday or Sunday, it is the weekend)
     print("It is the weekend, yay!")
-
-else:
-    print("Yes, unfortunately today is a weekday.") #this is the only option left so if the last 2 statements were both false, this must be true so it must run
