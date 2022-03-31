@@ -2,11 +2,12 @@
 #Inputting the positive floating point number and outputting approximation of its sqr root
 #Not using the built in square root function
 #Using Newton's formula
+#squareRoot = 0.5 * (Q + (N / Q))
 #Author: Orla Corry 
 
-def newtonSqrt(n, base): #defining the Newton function 
+def newtonSqrt(n, base): #defining the Newton function
     n = float(input("Please enter a positive number:")) #allows user to input a floating point number
-                                                        #defining n inside the function so that it is not a global variable
+                                                       #defining n inside the function so that it is not a global variable
     
     approx_root = 0.5 * n
     for i in range(base):
@@ -14,7 +15,7 @@ def newtonSqrt(n, base): #defining the Newton function
         approx_root = betterapprox
         
     return round(betterapprox, 1) #exiting the function to allow python to run the rest of the program
-                                #(ie to call the function)  
-                                # Using round here to round the decimal place to one           
+                                 # Using round() function here to round the output to 1 decimal place
+                                   
 
-print("the square root of 14.5 is approximately:",newtonSqrt(14.5,10)) #calling the function so that it will run 
+print("The square root of 14.5 is approx. {}." .format (newtonSqrt(14.5,10))) #calling the function so that it will run in the terminal  
