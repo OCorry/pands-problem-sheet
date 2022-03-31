@@ -21,7 +21,7 @@ The final step was to call the print() function to print the output of the progr
 
 
 
-collatz.py
+Collatz.py
 
 The purpose of this task was to ask the user to input a positive integer (in this case, using the number 10) and the program was to output values given a set of instructions. At each step, taking the current value and depending on whether it was an odd or even number; either divide the number by 2 or else multiply the number by 3 and add 1, respectively. 
 Firstly, I initialised the variable ‘number’ using the input() function so that the user could input the positive integer themselves in the terminal. To ensure that the program recognised that it was an integer I was looking for, I put ‘int’ before the input() function.
@@ -31,6 +31,15 @@ To overcome the issue above, I used a while loop so that while the value of the 
 I indented the ‘if’ and ‘else’ statements so that the block of code that I was using ran under the while loop condition I had set.
 I also initialised a variable called ‘list’ so that the program would output the list of values from the block of code. I used the append() function so that for each value the program generated, it would be added to the list https://realpython.com/python-append/. I found that in order for initial value (10) to print, I also had to put the append() function before the while loop so that 10, too would be added to the list. 
 Finally, I called the function using the print()  function to print the list. The program printed [10, 5, 16, 8, 4, 2, 1]
+
+
+
+
+Weekday.py
+The purpose of this program was to output whether or not the current day was a weekday.  
+Firstly, I needed to import the datetime module to python and then, I allocated the variable ‘now’ to the function datetime.datetime.today().weekday(). The today() function was used to establish what day of the week it was currently. The weekday() function was used to get the number of the day of the week. If the number of the day of the week was greater than 5, then it was the weekend, and if it was less than 5, it was a weekday. https://www.tutorialsrack.com/articles/324/how-to-find-the-current-day-is-weekday-or-weekends-in-python . Calling this function, returned the day (date and time) as it was on my PC at the moment in time that the program was run (Sweigart, A. 2015 P. 341). 
+I used the ‘if’ and ‘else’ statements again for this program. So, as long as the ‘if’ statement was true, then it would run. Otherwise, (had the ‘if’ statement been false) the ‘if’ statement would have been skipped and the ‘else’ statement would run instead (Sweigart, A, 2015 P. 39). 
+In order for the program to output a result, under the ‘if’ statement I called print() function to print “Yes, unfortunately today is a weekday.”. Under the ‘else’ statement, I called print() function to print “It is the weekend, yay!” 
 
 
 
