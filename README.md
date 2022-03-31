@@ -6,7 +6,7 @@ Calculate BMI.py
 The purpose of this program was to calculate BMI. 
 Firstly, I used the input() function for the weight and height variables (Sweigart, A. 2015 P.15). This allows the user to input whatever variables they want in the terminal. For the purposes of this task, I was using the variables provided; weight = 65kg and height= 180cm. 
 The next step was to research how to calculate the BMI itself. I sourced this from https://dev.to/mindninjax/how-to-build-a-bmi-calculator-in-python-4g2g . BMI is (weight in kg) divided by ((height in m)2). The height value had to be divided by 100 to get height in m as the input value was in cm.
-I used the round() function when calculating the BMI, to round the output value to 2 decimal places (Sweigard, A. 2015 P. 338)
+I used the round() function when calculating the BMI, to round the output value to 2 decimal places (Sweigart, A. 2015 P. 338)
 Finally, I called the print() function, to complete the program. Using the format() function https://www.w3schools.com/python/ref_string_format.asp , the print() function printed a formatted string “The BMI is (kg/m2) 20.06.”
 
 
@@ -41,6 +41,17 @@ The purpose of this program was to output whether or not the current day was a w
 Firstly, I needed to import the datetime module to python and then, I allocated the variable ‘now’ to the function datetime.datetime.today().weekday(). The today() function was used to establish what day of the week it was currently. The weekday() function was used to get the number of the day of the week. If the number of the day of the week was greater than 5, then it was the weekend, and if it was less than 5, it was a weekday. https://www.tutorialsrack.com/articles/324/how-to-find-the-current-day-is-weekday-or-weekends-in-python . Calling this function, returned the day (date and time) as it was on my PC at the moment in time that the program was run (Sweigart, A. 2015 P. 341). 
 I used the ‘if’ and ‘else’ statements again for this program. So, as long as the ‘if’ statement was true, then it would run. Otherwise, (had the ‘if’ statement been false) the ‘if’ statement would have been skipped and the ‘else’ statement would run instead (Sweigart, A, 2015 P. 39). 
 In order for the program to output a result, under the ‘if’ statement I called print() function to print “Yes, unfortunately today is a weekday.”. Under the ‘else’ statement, I called print() function to print “It is the weekend, yay!” 
+
+
+
+SquareRoot.py
+
+The purpose of this program was to get the square root of a floating point number without using any of the built in functions on Python, so instead I used the Newton method to estimate the square root.
+Firstly, I initialised the variable ‘n’, (number I was looking for the square root of) as a floating point as the number I was working with for this program is a float, 14.5. I defined n using the input() function so that the user could input the number in the terminal. I defined this inside the function so that it was a local variable rather than a global variable (Sweigart. A, 2015 P. 67). 
+Using the code from my source https://tutorialsinhand.com/Articles/python-program-to-find-square-root-of-a-number-using-newton-square-root-formula.aspx, I went on to calculate the square root of the number. I used the return() function to then exit the function. I also used the round() function here and put the number 1 in the second argument of the function so that the output would round to 1 decimal place (Sweigart, A 2015 P. 338). All this block of code was indented as it is all a sub-part of the defined function.
+Finally, I called the print() function to output the result of the defined function. I used the format() function so that the output would be printed as a formatted string https://www.w3schools.com/python/ref_string_format.asp. 
+The print() function was not indented as it was not a sub-part of the defined function. The output generated in the terminal was ‘The square root of 14.5 is approx. 3.8.’
+
 
 
 
