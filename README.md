@@ -36,6 +36,7 @@ Finally, I called the function using the print()  function to print the list. Th
 
 
 Weekday.py
+
 The purpose of this program was to output whether or not the current day was a weekday.  
 Firstly, I needed to import the datetime module to python and then, I allocated the variable ‘now’ to the function datetime.datetime.today().weekday(). The today() function was used to establish what day of the week it was currently. The weekday() function was used to get the number of the day of the week. If the number of the day of the week was greater than 5, then it was the weekend, and if it was less than 5, it was a weekday. https://www.tutorialsrack.com/articles/324/how-to-find-the-current-day-is-weekday-or-weekends-in-python . Calling this function, returned the day (date and time) as it was on my PC at the moment in time that the program was run (Sweigart, A. 2015 P. 341). 
 I used the ‘if’ and ‘else’ statements again for this program. So, as long as the ‘if’ statement was true, then it would run. Otherwise, (had the ‘if’ statement been false) the ‘if’ statement would have been skipped and the ‘else’ statement would run instead (Sweigart, A, 2015 P. 39). 
