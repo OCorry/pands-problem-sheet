@@ -56,18 +56,19 @@ The print() function was not indented as it was not a sub-part of the defined fu
 
 
 
-Number of e’s.py
-
-The purpose of the program was to count the number of e’s in the Moby Dick text. It was not specified if I needed to count upper or lower case here so I went on the assumption that it was lower case only as the e in the request was a lower case e.
+Number of e’s:
+The purpose of the program was to count the number of e’s in the Moby Dick text. It was not specified if I needed to count upper or lower case here so I went on the assumption that it was lower case only as the e in the request was lower case.
 I used text from https://www.gutenberg.org/files/2701/old/moby10b.txt.
 In order to read the text, the program had to take the filename from an argument on the command line. Firstly to do this, I imported the sys module https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python.
-I stored the sys.argv[1] as a variable called filename to make it more accessible. This allowed me to run the first argument (which was the moby-dick.txt) https://stackoverflow.com/questions/4117530/sys-argv1-meaning-in-script#:~:text=argv%5B0%5D%20catches%20the%20directory,have%20a%20example.py%20file.
-The code I used for the function was based on the code from https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/ However, this code did not use the ‘with open’ method, so I had to rewrite some of the code to allow for this.
-I defined the function to count the number of lowercase e’s, using the ‘with open ‘command. I opened the file as a read text, as I only wanted to read it. I opened the file as ‘f’ so that from now on the file was named ‘f’. 
-After this, I stored what I was looking for in the text, (ie: the number of e’s) as a variable named  ‘numberOfe’s”. Then I wanted the program to return all of the e’s in the text and to do this I used the return command.
-All of the code within the defined function was indented.
-Finally, I called the whole function to print the number of e’s in the text, ‘f’. I did this by entering .\es.py .\moby-dick.txt in the terminal inside of the PANDS-PROBLEM-SHEET directory. 
-The print call was not indented as it was not a section of the defined function.
+I stored the sys.argv[1] as a variable called filename to make it more accessible. This allowed me to run the first argument (moby-dick.txt) on the command line. If I had for example, changed the number here to [2], it would have given an error as the list index was out of range. This is because there were only index 0 (es.py- ie: the directory where the file is located) and index 1 (moby-dick.txt- ie: the first argument).https://stackoverflow.com/questions/4117530/sys-argv1-meaning-in-script#:~:text=argv%5B0%5D%20catches%20the%20directory,have%20a%20example.py%20file.
+The code I used for the function was based on the code from https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/ However, this code did not use the ‘with open’ method, so I had to rewrite some of the code to allow for this. Using the ‘with open’ statement means that the file will automatically close again https://www.pythonforbeginners.com/files/with-statement-in-python. 
+I defined the function and using the ‘with open ‘command. I opened the file as ‘rt’ (read text), as I only wanted to read it. I opened the file as ‘f’ so that from now on the file was named ‘f’. 
+I then stored f.read() as a variable called data. I left the brackets after f.read() blank here as I wanted the program to read the whole text https://www.w3schools.com/python/ref_file_read.asp.  
+Next, I used the return keyword to exit the function and to return a value from the function https://www.w3schools.com/python/ref_keyword_return.asp.  Following the return keyword, I used data.count(letter) as I wanted the program to return a count of the letters in the text https://www.w3schools.com/python/ref_list_count.asp. 
+All of the code within the defined function was indented as it was all a sub-part of the function.
+Finally, I called the whole function by using print() and requested that the number of ‘e’s in the text, ‘f’. be printed. I did this by entering .\es.py .\moby-dick.txt in the terminal inside of the PANDS-PROBLEM-SHEET/numberOfe’s directory. 
+The print call was not indented as it was not a section of the defined function. The print() call printed an output of 116960 lower case e’s.
+
 
 
 
