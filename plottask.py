@@ -18,7 +18,4 @@ plt.legend()
 plt.grid()
 #plt.show()
 plt.savefig("Plot Task.png")
-#references for making plot 'pretty'
 
-# 
-#
