@@ -2,7 +2,7 @@
 #and outputs the successive values of the following calculation:
 #at each step, calculate the next value by taking the current value and, if its even, multiply by 2
 #but if its odd, multiply it by 3 and add 1
-
+#starting with number 10
 #Author: Orla Corry
 
 number = int(input("Please enter a positive integer:")) #initialising the variable using input statement so user can input in terminal
