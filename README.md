@@ -1,7 +1,7 @@
 # pands-problem-sheet
 # Author:Orla Corry 
 
- Task 1: Calculate BMI.py
+ Week 2:: Calculate BMI.py
 
 The purpose of this program was to calculate BMI. 
 Firstly, I used the input() function for the weight and height variables (Sweigart, A. 2015 P.15). This allows the user to input whatever variables they want in the terminal. For the purposes of this task, I was using the variables provided; weight = 65kg and height= 180cm. 
@@ -14,7 +14,7 @@ Finally, I called the print() function, to complete the program. Using the forma
 
 
 
-Task 2: SecondString.py
+Week 3: SecondString.py
 
 The purpose of this program was to allow the user to input a sentence and use code to output a second string with every second letter in reverse order. To allow the user to input the sentence (originalSentence) in the terminal, I used the input() function, followed by ‘Please enter a sentence:”.
 The next step was to source code to obtain the output requested. To print the secondString in reverse, I got my code from https://www.w3schools.com/python/python_howto_reverse_string.asp. This started at the end of the string and worked backwards. However, as the program also needed to be able to print every second letter in reverse order, so I needed to alter this code. I found code from https://stackoverflow.com/questions/53769570/printing-even-characters-with-strings-in-python to print every second letter. I incorporated the two ideas from the two sources to make [::-2]. Meaning that starting at the very end of the string, the program would output every second letter. If I had used [43::-2], I would have gotten the same output (as there are 43 indexes in the sentence. However, because I was starting from the very end of the sentence in this case, I didn’t need to specify the index number. 
@@ -25,7 +25,7 @@ The final step was to call the print() function to print the output of the progr
 
 
 
-Task 3: Collatz.py
+Week 4: Collatz.py
 
 The purpose of this task was to ask the user to input a positive integer (in this case, using the number 10) and the program was to output values given a set of instructions. At each step, taking the current value and depending on whether it was an odd or even number; either divide the number by 2 or else multiply the number by 3 and add 1, respectively. 
 Firstly, I initialised the variable ‘number’ using the input() function so that the user could input the positive integer themselves in the terminal. To ensure that the program recognised that it was an integer I was looking for, I put ‘int’ before the input() function.
@@ -38,8 +38,7 @@ Finally, I called the function using the print()  function to print the list. Th
 
 
 
-
-Weekday.py
+Week 5: Weekday.py
 
 The purpose of this program was to output whether or not the current day was a weekday.  
 Firstly, I needed to import the datetime module to python and then, I allocated the variable ‘now’ to the function datetime.datetime.today().weekday(). The today() function was used to establish what day of the week it was currently. The weekday() function was used to get the number of the day of the week. If the number of the day of the week was greater than 5, then it was the weekend, and if it was less than 5, it was a weekday. https://www.tutorialsrack.com/articles/324/how-to-find-the-current-day-is-weekday-or-weekends-in-python . Calling this function, returned the day (date and time) as it was on my PC at the moment in time that the program was run (Sweigart, A. 2015 P. 341). 
@@ -48,7 +47,7 @@ In order for the program to output a result, under the ‘if’ statement I call
 
 
 
-SquareRoot.py
+Week 6: SquareRoot.py
 
 The purpose of this program was to get the square root of a floating point number without using any of the built in functions on Python, so instead I used the Newton method to estimate the square root.
 Firstly, I initialised the variable ‘n’, (number I was looking for the square root of) as a floating point as the number I was working with for this program is a float, 14.5. I defined n using the input() function so that the user could input the number in the terminal. I defined this inside the function so that it was a local variable rather than a global variable (Sweigart. A, 2015 P. 67). 
@@ -58,9 +57,7 @@ The print() function was not indented as it was not a sub-part of the defined fu
 
 
 
-
-
-Number of e’s:
+Week 7: Number of e’s:
 The purpose of the program was to count the number of e’s in the Moby Dick text. It was not specified if I needed to count upper or lower case here so I went on the assumption that it was lower case only as the e in the request was lower case.
 I used text from https://www.gutenberg.org/files/2701/old/moby10b.txt.
 In order to read the text, the program had to take the filename from an argument on the command line. Firstly to do this, I imported the sys module https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python.
@@ -75,8 +72,7 @@ The print call was not indented as it was not a section of the defined function.
 
 
 
-
-Plottask.py
+Week 8: Plottask.py
 
 The purpose of this program was to plot 3 functions: f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4], on the one set of axes.
 Firstly, I imported Numpy and Matplotlib, the modules needed to run this program on Python. These modules are already in Anaconda so I didn’t need to install them. I used Numpy as a faster way of dealing with arrays and the Matplotlib module for plotting the data I was working with.
