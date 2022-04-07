@@ -17,11 +17,11 @@ plt.plot(xpoints, ypointsB, label = "g(x) = x2", color = "blue", ls = "--", mark
 plt.plot(xpoints, ypointsC, label = "h(x) = x3", color = "green", marker= "H")
 plt.legend()
 plt.grid()
-<<<<<<< HEAD
+
 plt.show()
 #plt.savefig("Plot Task.png")
-=======
+
 #plt.show()
 plt.savefig("Plot Task.png")
->>>>>>> 33bbb1d59854d90a715fe61ebe7cc8120dbaff64
+
 
