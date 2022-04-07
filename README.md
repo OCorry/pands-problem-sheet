@@ -83,12 +83,14 @@ Firstly, I imported Numpy and Matplotlib, the modules needed to run this program
 The xpoints needed to be in a range from 0 to 4 so I used range (0,5) to allow for 4 to be included when creating my xpoints range.
 Next were the y values. As f(x)= x is the same as saying f(x) = y, https:www.youtube.com/watch?v=uWKGVSpWcc8 , I used this basis to create my three values for y. 
 •	ypointsA = xpoints, 
-•	ypointsB = xpoints
-•	ypointsC = xpoints3
 
-When I had my points generated, I then plotted them. As I was plotting 3 different functions all on the one set of axes, I used the plt.plot function 3 times to plot the three of them. I also researched on how to change the appearance of the plot. I changed the line type https://www.w3schools.com/python/matplotlib_line.asp ,  marker type https://www.tutorialspoint.com/numpy/numpy_matplotlib.htm . I also inputted a grid behind the plots https://www.w3schools.com/python/matplotlib_grid.asp 
+•	ypointsB = xpoints(squared),
 
-I named the x and y axes (x= Range 0-4) and (y = function) and gave the plot a name - Plot of Functions. https://www.w3schools.com/python/matplotlib_labels.asp . I changed the colour of these labels I added a legend to label each of the line plot names and changed the colour of the lines also. 
+•	ypointsC = xpoints(cubed)
+
+When I had my points generated, I then plotted them. As I was plotting 3 different functions all on the one set of axes, I used the plt.plot function 3 times to plot the three of them. I also researched on how to change the appearance of the plot. I changed the line type https://www.w3schools.com/python/matplotlib_line.asp,  marker type https://www.tutorialspoint.com/numpy/numpy_matplotlib.htm on the plots. I also inputted a grid behind the plots https://www.w3schools.com/python/matplotlib_grid.asp.
+
+I named the x and y axes (x= Range 0-4) and (y = function) and gave the plot a name - Plot of Functions https://www.w3schools.com/python/matplotlib_labels.asp. I changed the colour of these labels and I added a legend to label each of the line plot names and changed the colour of the lines also. 
 Finally, to run the program I ran the command plt.show(). This generated visual plot of the three functions I had created. I also saved the plot as a png file using plt.savefig(“Plot Task.png”) so that it could be seen on GitHub when I pushed up the task.
 
 
