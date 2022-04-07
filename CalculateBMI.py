@@ -1,5 +1,7 @@
-# Program to calculate BMI
+# Write a program to calculate BMI
 # Read in the weight and height variables using the input() fumction  
+#weight = 65kg
+#height =180cm
 # Author: Orla Corry 
 
 

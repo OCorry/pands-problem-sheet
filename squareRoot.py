@@ -1,4 +1,4 @@
-#Program to find the square root of a positive floating point number 
+#Write a program to find the square root of a positive floating point number 
 #Inputting the positive floating point number and outputting approximation of its sqr root
 #Not using the built in square root function
 #Using Newton's formula

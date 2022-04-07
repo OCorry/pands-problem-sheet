@@ -1,4 +1,4 @@
-#Program that outputs whether or not today is a weekday
+#Write a program that outputs whether or not today is a weekday
 #Author: Orla Corry 
 
 import datetime #importing datetime funtion to python

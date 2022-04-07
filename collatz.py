@@ -1,4 +1,4 @@
-#program that asks user to input a positive integer 
+#Write a program that asks user to input a positive integer 
 #and outputs the successive values of the following calculation:
 #at each step, calculate the next value by taking the current value and, if its even, multiply by 2
 #but if its odd, multiply it by 3 and add 1
