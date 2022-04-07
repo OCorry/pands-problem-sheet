@@ -1,7 +1,7 @@
 # pands-problem-sheet
 # Author:Orla Corry 
 
-Calculate BMI.py
+ Task 1: Calculate BMI.py
 
 The purpose of this program was to calculate BMI. 
 Firstly, I used the input() function for the weight and height variables (Sweigart, A. 2015 P.15). This allows the user to input whatever variables they want in the terminal. For the purposes of this task, I was using the variables provided; weight = 65kg and height= 180cm. 
@@ -12,7 +12,9 @@ Finally, I called the print() function, to complete the program. Using the forma
 
 
 
-SecondString.py
+
+
+Task 2: SecondString.py
 
 The purpose of this program was to allow the user to input a sentence and use code to output a second string with every second letter in reverse order. To allow the user to input the sentence (originalSentence) in the terminal, I used the input() function, followed by ‘Please enter a sentence:”.
 The next step was to source code to obtain the output requested. To print the secondString in reverse, I got my code from https://www.w3schools.com/python/python_howto_reverse_string.asp. This started at the end of the string and worked backwards. However, as the program also needed to be able to print every second letter in reverse order, so I needed to alter this code. I found code from https://stackoverflow.com/questions/53769570/printing-even-characters-with-strings-in-python to print every second letter. I incorporated the two ideas from the two sources to make [::-2]. Meaning that starting at the very end of the string, the program would output every second letter. If I had used [43::-2], I would have gotten the same output (as there are 43 indexes in the sentence. However, because I was starting from the very end of the sentence in this case, I didn’t need to specify the index number. 
@@ -21,7 +23,9 @@ The final step was to call the print() function to print the output of the progr
 
 
 
-Collatz.py
+
+
+Task 3: Collatz.py
 
 The purpose of this task was to ask the user to input a positive integer (in this case, using the number 10) and the program was to output values given a set of instructions. At each step, taking the current value and depending on whether it was an odd or even number; either divide the number by 2 or else multiply the number by 3 and add 1, respectively. 
 Firstly, I initialised the variable ‘number’ using the input() function so that the user could input the positive integer themselves in the terminal. To ensure that the program recognised that it was an integer I was looking for, I put ‘int’ before the input() function.
