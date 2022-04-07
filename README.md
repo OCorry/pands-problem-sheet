@@ -65,7 +65,7 @@ I defined the function and using the ‘with open ‘command. I opened the file 
 I then stored f.read() as a variable called data. I left the brackets after f.read() blank here as I wanted the program to read the whole text https://www.w3schools.com/python/ref_file_read.asp.  
 Next, I used the return keyword to exit the function and to return a value from the function https://www.w3schools.com/python/ref_keyword_return.asp.  Following the return keyword, I used data.count(letter) as I wanted the program to return a count of the letters in the text https://www.w3schools.com/python/ref_list_count.asp. 
 All of the code within the defined function was indented as it was all a sub-part of the function.
-Finally, I called the whole function by using print() and requested that the number of ‘e’s in the text, ‘f’. be printed. I did this by entering .\es.py .\moby-dick.txt in the terminal inside of the PANDS-PROBLEM-SHEET/numberOfe’s directory. 
+Finally, I called the whole function by using print() and requested that the number of ‘e’s in the text, ‘f’. be printed. I did this by entering .\es.py .\moby-dick.txt in the terminal. 
 The print call was not indented as it was not a section of the defined function. The print() call printed an output of 116960 lower case e’s.
 
 
@@ -84,6 +84,7 @@ When I had my points generated, I then plotted them. As I was plotting 3 differe
 
 I named the x and y axes (x= Range 0-4) and (y = function) and gave the plot a name - Plot of Functions. https://www.w3schools.com/python/matplotlib_labels.asp . I changed the colour of these labels I added a legend to label each of the line plot names and changed the colour of the lines also. 
 Finally, to run the program I ran the command plt.show(). This generated visual plot of the three functions I had created. I also saved the plot as a png file using plt.savefig(“Plot Task.png”) so that it could be seen on GitHub when I pushed up the task.
+
 
 
 
