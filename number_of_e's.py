@@ -1,6 +1,7 @@
 #Write a program that reads in a text file from the command line and outputs the number of e's it contains
 #I am assuming that the user is looking for the number of lower case e's as it is lowecase in the request and they dont specify
 #Author: Orla Corry 
+
 '''
 #I did this first simply to make sure the file would read before moving on to researching the letter counting part of the task
 import sys 
