@@ -2,6 +2,7 @@
 #Inputting the positive floating point number and outputting approximation of its sqr root
 #Not using the built in square root function
 #Using Newton's formula
+#Get square root of 14.5
 #squareRoot = 0.5 * (Q + (N / Q))
 #Author: Orla Corry 
 
