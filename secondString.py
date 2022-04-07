@@ -1,5 +1,5 @@
 #Write a program to input a sentence (str) and output every second letter in reverse order
-#Sentence: The quick brown fox jumps over the lazy dog.
+#Sentence:  The quick brown fox jumps over the lazy dog.
 #Author: Orla Corry 
 
 #Read in the variable using input() function so that user can input string in the terminal
