@@ -3,7 +3,7 @@
 
 ## Introduction 
 
-This ReadMe.md file gives an description of the seven weekly tasks that I have been working on as part of my Programming and Scripting module. 
+This README.md file gives an description of the seven weekly tasks that I have been working on as part of my Programming and Scripting module. 
 It also includes references for all of the sources I have used to help me carry out the seven tasks. 
 
 ## **Week 2: calculate_bmi.py**
@@ -59,6 +59,7 @@ The print() function was not indented as it was not a sub-part of the defined fu
 
 
 
+
 ## **Week 7: number_of_e’s.py:**
 
 The purpose of the program was to count the number of e’s in the Moby Dick text. It was not specified if I needed to count upper or lower case here so I went on the assumption that it was lower case only as the e in the request was lower case.
@@ -99,6 +100,7 @@ Finally, to run the program I ran the command plt.show(). This generated visual 
 ## **Week 2: calculate_bmi.py**
 
 https://dev.to/mindninjax/how-to-build-a-bmi-calculator-in-python-4g2g
+
 https://www.w3schools.com/python/ref_string_format.asp
 
 Sweigart, A. (2015) “Automate The Boring Stuff With Python”
@@ -106,13 +108,16 @@ Sweigart, A. (2015) “Automate The Boring Stuff With Python”
 ## **Week 3: secondstring.py**
 
 https://www.w3schools.com/python/python_howto_reverse_string.asp
+
 https://stackoverflow.com/questions/53769570/printing-even-characters-with-strings-in-python
 
 
 ## **Week 4: collatz.py**
 
 https://medium.com/the-art-of-python/the-collatz-sequence-in-python-eb7e1f1b4f9e
+
 https://realpython.com/python-append/
+
 Sweigart, A. (2015) “Automate The Boring Stuff With Python”
 
 
@@ -126,6 +131,7 @@ Sweigart, A. (2015) “Automate The Boring Stuff With Python”
 ## **Week 6: squareroot.py**
 
 https://tutorialsinhand.com/Articles/python-program-to-find-square-root-of-a-number-using-newton-square-root-formula.aspx
+
 https://www.w3schools.com/python/ref_string_format.asp
 
 Sweigart, A. (2015) “Automate The Boring Stuff With Python”
@@ -134,26 +140,37 @@ Sweigart, A. (2015) “Automate The Boring Stuff With Python”
 ## **Week 7: number_of_e’s.py:**
 
 https://www.gutenberg.org/files/2701/old/moby10b.txt
+
 https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python
+
 https://stackoverflow.com/questions/4117530/sys-argv1-meaning-in-script#:~:text=argv%5B0%5D%20catches%20the%20directory,have%20a%20example.py%20file
+
 https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
+
 https://www.pythonforbeginners.com/files/with-statement-in-python
+
 https://www.w3schools.com/python/ref_file_read.asp
+
 https://www.w3schools.com/python/ref_keyword_return.asp
+
 https://www.w3schools.com/python/ref_list_count.asp
 
 
 ## **Week 8: plottask.py**
 
 http://www.youtube.com/watch?v=uWKGVSpWcc8
+
 https://www.w3schools.com/python/matplotlib_line.asp
+
 https://www.tutorialspoint.com/numpy/numpy_matplotlib.htm
+
 https://www.w3schools.com/python/matplotlib_grid.asp
+
 https://www.w3schools.com/python/matplotlib_labels.asp
 
 Sweigart, A. (2015) “Automate The Boring Stuff With Python"
 
-## **Readme**
+## **README.md file**
 https://thenewstack.io/getting-legit-with-git-and-github-readme-loud-and-clear-using-git-markdown/
 
 
