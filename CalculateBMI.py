@@ -2,7 +2,7 @@
 # Read in the weight and height variables using the input() fumction  
 #weight = 65kg
 #height =180cm
-# Author: Orla Corry 
+# Author: Orla Corry. 
 
 
 #need the imput variables to be in integer form so putting int before input 
