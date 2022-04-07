@@ -6,7 +6,7 @@
 This README.md file gives an description of the seven weekly tasks that I have been working on as part of my Programming and Scripting module. 
 It also includes references for all of the sources I have used to help me carry out the seven tasks. 
 
-###### **Week 2: calculate_bmi.py**
+## **Week 2: calculate_bmi.py**
 
 The purpose of this program was to calculate BMI. 
 Firstly, I used the input() function for the weight and height variables (Sweigart, A. 2015 P.15). This allows the user to input whatever variables they want in the terminal. For the purposes of this task, I was using the variables provided; weight = 65kg and height= 180cm. 
