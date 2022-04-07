@@ -3,7 +3,7 @@
 
 Introduction 
 
- # **Week 2: calculate_bmi.py**
+ ## **Week 2: calculate_bmi.py**
 
 The purpose of this program was to calculate BMI. 
 Firstly, I used the input() function for the weight and height variables (Sweigart, A. 2015 P.15). This allows the user to input whatever variables they want in the terminal. For the purposes of this task, I was using the variables provided; weight = 65kg and height= 180cm. 
