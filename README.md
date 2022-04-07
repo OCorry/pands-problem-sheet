@@ -5,7 +5,7 @@
 
 The purpose of this program was to calculate BMI. 
 Firstly, I used the input() function for the weight and height variables (Sweigart, A. 2015 P.15). This allows the user to input whatever variables they want in the terminal. For the purposes of this task, I was using the variables provided; weight = 65kg and height= 180cm. 
-The next step was to research how to calculate the BMI itself. I sourced this from https://dev.to/mindninjax/how-to-build-a-bmi-calculator-in-python-4g2g . BMI is (weight in kg) divided by ((height in m)2). The height value had to be divided by 100 to get height in m as the input value was in cm.
+The next step was to research how to calculate the BMI itself. I sourced this from https://dev.to/mindninjax/how-to-build-a-bmi-calculator-in-python-4g2g . BMI is (weight in kg) divided by ((height in m)squared). The height value had to be divided by 100 to get height in m as the input value was in cm.
 I used the round() function when calculating the BMI, to round the output value to 2 decimal places (Sweigart, A. 2015 P. 338)
 Finally, I called the print() function, to complete the program. Using the format() function https://www.w3schools.com/python/ref_string_format.asp , the print() function printed a formatted string “The BMI is (kg/m2) 20.06.”
 
