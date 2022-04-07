@@ -1,7 +1,7 @@
 # pands-problem-sheet
 # Author: Orla Corry 
 
-## Introduction 
+## ***Introduction*** 
 
 This README.md file gives an description of the seven weekly tasks that I have been working on as part of my Programming and Scripting module. 
 It also includes references for all of the sources I have used to help me carry out the seven tasks. 
@@ -94,7 +94,7 @@ Finally, to run the program I ran the command plt.show(). This generated visual 
 
 
 
-# **List of references accessed:**
+# ***List of references accessed:***
 
 
 ## **Week 2: calculate_bmi.py**
@@ -170,7 +170,7 @@ https://www.w3schools.com/python/matplotlib_labels.asp
 
 Sweigart, A. (2015) “Automate The Boring Stuff With Python"
 
-## ***README.md file***
+## **README.md file**
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 
