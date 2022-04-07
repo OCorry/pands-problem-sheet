@@ -97,6 +97,7 @@ Week 2: Calculate BMI.py
 
 https://dev.to/mindninjax/how-to-build-a-bmi-calculator-in-python-4g2g
 https://www.w3schools.com/python/ref_string_format.asp
+
 Sweigart, A. (2015) “Automate The Boring Stuff With Python”
 
 Week 3: SecondString.py
@@ -112,6 +113,7 @@ https://realpython.com/python-append/
 Sweigart, A. (2015) “Automate The Boring Stuff With Python”
 Week 5: Weekday.py
 https://www.tutorialsrack.com/articles/324/how-to-find-the-current-day-is-weekday-or-weekends-in-python
+
 Sweigart, A. (2015) “Automate The Boring Stuff With Python”
 
 
@@ -119,6 +121,7 @@ Week 6: SquareRoot.py
 
 https://tutorialsinhand.com/Articles/python-program-to-find-square-root-of-a-number-using-newton-square-root-formula.aspx
 https://www.w3schools.com/python/ref_string_format.asp
+
 Sweigart, A. (2015) “Automate The Boring Stuff With Python”
 
 
@@ -141,7 +144,8 @@ https://www.w3schools.com/python/matplotlib_line.asp
 https://www.tutorialspoint.com/numpy/numpy_matplotlib.htm
 https://www.w3schools.com/python/matplotlib_grid.asp
 https://www.w3schools.com/python/matplotlib_labels.asp
-Sweigart, A. (2015) “Automate The Boring Stuff With Pytho
+
+Sweigart, A. (2015) “Automate The Boring Stuff With Python"
 
 
 
