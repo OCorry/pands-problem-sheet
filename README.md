@@ -80,10 +80,10 @@ The print call was not indented as it was not a section of the defined function.
 
 The purpose of this program was to plot 3 functions: f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4], on the one set of axes.
 Firstly, I imported Numpy and Matplotlib, the modules needed to run this program on Python. These modules are already in Anaconda so I didn’t need to install them. I used Numpy as a faster way of dealing with arrays and the Matplotlib module for plotting the data I was working with.
-The xpoints needed to be in a range from 0 to 4 so I used range (0,5) to allow for to be included 4 included when creating my xpoints range.
+The xpoints needed to be in a range from 0 to 4 so I used range (0,5) to allow for 4 to be included when creating my xpoints range.
 Next were the y values. As f(x)= x is the same as saying f(x) = y, https:www.youtube.com/watch?v=uWKGVSpWcc8 , I used this basis to create my three values for y. 
 •	ypointsA = xpoints, 
-•	ypointsB = xpoints2
+•	ypointsB = xpoints
 •	ypointsC = xpoints3
 
 When I had my points generated, I then plotted them. As I was plotting 3 different functions all on the one set of axes, I used the plt.plot function 3 times to plot the three of them. I also researched on how to change the appearance of the plot. I changed the line type https://www.w3schools.com/python/matplotlib_line.asp ,  marker type https://www.tutorialspoint.com/numpy/numpy_matplotlib.htm . I also inputted a grid behind the plots https://www.w3schools.com/python/matplotlib_grid.asp 
@@ -170,8 +170,8 @@ https://www.w3schools.com/python/matplotlib_labels.asp
 
 Sweigart, A. (2015) “Automate The Boring Stuff With Python"
 
-## **README.md file**
-https://thenewstack.io/getting-legit-with-git-and-github-readme-loud-and-clear-using-git-markdown/
+## ***README.md file***
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 
 
