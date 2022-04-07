@@ -81,7 +81,8 @@ The print call was not indented as it was not a section of the defined function.
 The purpose of this program was to plot 3 functions: f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4], on the one set of axes.
 Firstly, I imported Numpy and Matplotlib, the modules needed to run this program on Python. These modules are already in Anaconda so I didn’t need to install them. I used Numpy as a faster way of dealing with arrays and the Matplotlib module for plotting the data I was working with.
 The xpoints needed to be in a range from 0 to 4 so I used range (0,5) to allow for 4 to be included when creating my xpoints range.
-Next were the y values. As f(x)= x is the same as saying f(x) = y, https:www.youtube.com/watch?v=uWKGVSpWcc8 , I used this basis to create my three values for y. 
+Next were the y values. As f(x)= x is the same as saying f(x) = y, https:www.youtube.com/watch?v=uWKGVSpWcc8 , I used this basis to create my three values for y.
+
 •	ypointsA = xpoints, 
 
 •	ypointsB = xpoints(squared),
